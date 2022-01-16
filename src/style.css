@@ -62,7 +62,7 @@ p{
     margin: 0;
     font-size: 17px;
     font-weight: 300;
-    color: gray;
+    color: rgb(155, 148, 148);
 }
 .subtext{
     font-size: 15px;
@@ -140,7 +140,7 @@ p{
 
 
 .headshot{
-    width: 250px;
+    width: 100px;
     border-radius: 200px;
     
 
@@ -213,7 +213,33 @@ a:hover{
      display: block;
      max-width: 100%;
     
-   
+}
+.verified-button{
+    font-family: Rajdhani,
+    sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: turquoise;
+    width: 130px;
+    height: 35px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px;
+    padding-top: 4px;
+    margin-top: 40px;
+    background-color: black;
+    box-shadow: 14px 14px 2px 1px turquoise;
     
     
+    
+}
+.verified-button:hover {
+    background-color: black;
+    color: turquoise;
+    
+}
+
+.verified-button:active {
+    background-color: pink;
+    color: black;
 }
